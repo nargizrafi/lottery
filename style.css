@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
 .main{
     height: 100vh;
@@ -11,15 +13,16 @@
     gap: 10px;
     align-items: center;
     background-color: lightblue;
-  
+    background-image: url(./Pixel-art-in-2019-Pixel-art-background-Pixel-art-.gif);
+    background-size: cover;
 }
 h1{
   color: white;
-    background-color: lightsteelblue;
+    background-color: #E791A2;
     padding: 10px 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     box-shadow: 1px 1px 3px gray;
-    
+    border-radius: 30px;
 }
 .container{
     width: 900px;
@@ -31,6 +34,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    border-radius: 30px;
 
 }
 .buttons{
@@ -39,17 +43,19 @@ h1{
 }
 button{
     color: white;
-    background-color: lightsteelblue;
+    background-color: #E791A2;
     width: 200px;
     height: 40px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px gray;
-    font-size: 1.1em;
+    font-size: 1.4em;
     letter-spacing: 1px;
     cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s all;
 }
 button:hover{
-    background-color: slategrey;
+    background-color: #bd5c70;
 }
 .circle{
     color: white;
@@ -58,7 +64,7 @@ button:hover{
     height: 40px;
     box-shadow: 1px 1px 4px gray;
     border-radius: 50%;
-    background-color: lightsteelblue;
+    background-color: #E791A2;
     display: flex;
     justify-content: center;
     align-items: center;
